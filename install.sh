@@ -11,6 +11,9 @@ echo "Cloning the VerusCoin miner repository..."
 git clone https://github.com/VerusCoin/VerusCoin.git ~/verus-miner
 cd ~/verus-miner
 
+chmod +x install.sh start_mining.sh auto_start.sh
+
+
 # Build the miner
 echo "Building the Verus miner..."
 make
