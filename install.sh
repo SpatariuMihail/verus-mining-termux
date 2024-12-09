@@ -10,6 +10,8 @@ pkg install -y git wget curl python3 cmake clang build-essential openssl libhwlo
 echo "Setting executable permissions for scripts..."
 chmod +x ~/verus-miner/install.sh ~/verus-miner/start_mining.sh ~/verus-miner/auto_start.sh
 
+rm -rf ~/verus-miner
+
 # Clone VerusCoin mining repository
 echo "Cloning the VerusCoin miner repository..."
 git clone https://github.com/VerusCoin/VerusCoin.git ~/verus-miner
