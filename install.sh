@@ -6,6 +6,10 @@ pkg update -y
 pkg upgrade -y
 pkg install -y git wget curl python3 cmake clang build-essential libssl-dev libhwloc-dev
 
+# Ensure scripts have executable permissions
+echo "Setting executable permissions for scripts..."
+chmod +x ~/verus-miner/install.sh ~/verus-miner/start_mining.sh ~/verus-miner/auto_start.sh
+
 # Clone VerusCoin mining repository
 echo "Cloning the VerusCoin miner repository..."
 git clone https://github.com/VerusCoin/VerusCoin.git ~/verus-miner
@@ -14,10 +18,6 @@ cd ~/verus-miner
 # Build the miner
 echo "Building the Verus miner..."
 make
-
-# Ensure scripts have executable permissions
-echo "Setting executable permissions for scripts..."
-chmod +x ~/verus-miner/install.sh ~/verus-miner/start_mining.sh ~/verus-miner/auto_start.sh
 
 # Create mining configuration file
 echo "Creating mining configuration file..."
