@@ -19,10 +19,9 @@ An automated Verus Coin mining solution designed for mobile devices using Termux
    mkdir verus-mining-termux
    cd verus-mining-termux
    wget https://raw.githubusercontent.com/SpatariuMihail/verus-mining-termux/refs/heads/main/auto_start.sh
-   
-wget https://github.com/SpatariuMihail/verus-mining-termux/blob/main/config.txt
-wget https://raw.githubusercontent.com/SpatariuMihail/verus-mining-termux/refs/heads/main/install.sh
-wget https://raw.githubusercontent.com/SpatariuMihail/verus-mining-termux/refs/heads/main/start_mining.sh
+   wget https://github.com/SpatariuMihail/verus-mining-termux/blob/main/config.txt
+   wget https://raw.githubusercontent.com/SpatariuMihail/verus-mining-termux/refs/heads/main/install.sh
+   wget https://raw.githubusercontent.com/SpatariuMihail/verus-mining-termux/refs/heads/main/start_mining.sh
    chmod +x install.sh
    chmod +x start_mining.sh
    ./install.sh
