@@ -15,7 +15,7 @@ An automated Verus Coin mining solution designed for mobile devices using Termux
    ```bash
    pkg update -y
    pkg upgrade -y
-   git clone [https://github.com/<your-username>/verus-mining-termux.git](https://github.com/SpatariuMihail/verus-mining-termux.git)
+   git clone https://github.com/SpatariuMihail/verus-mining-termux.git
    cd verus-mining-termux
    chmod +x install.sh
    ./install.sh
