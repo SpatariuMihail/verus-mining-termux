@@ -1,4 +1,4 @@
-POOL=na.luckpool.net
+POOL=eu.luckpool.net
 PORT=3956
-WALLET=your_wallet_address_here  # Replace with your Verus wallet address
-THREADS=4  # Adjust based on your CPU
+WALLET=RJwzfVNqHx5gbruG94yRikLbEwCDYtJA9T  # Replace with your Verus wallet address
+THREADS=12  # Adjust based on your CPU
