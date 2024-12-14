@@ -4,7 +4,15 @@
 echo "Updating Termux and installing necessary dependencies..."
 pkg update -y
 pkg upgrade -y
-pkg install -y git wget curl python3 cmake clang build-essential openssl binutils 
+pkg install -y git 
+pkg install -y wget 
+pkg install -y curl 
+pkg install -y python3 
+pkg install -y cmake 
+pkg install -y clang 
+pkg install -y build-essential 
+pkg install -y openssl 
+pkg install -y binutils 
 
 # Remove existing Verus miner directory if it exists
 echo "Cleaning up old files..."
