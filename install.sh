@@ -4,7 +4,7 @@
 echo "Updating Termux and installing necessary dependencies..."
 pkg update -y
 pkg upgrade -y
-pkg install -y git wget curl python3 cmake clang build-essential openssl libhwloc
+pkg install -y git wget curl python3 cmake clang build-essential openssl  libhwloc-dev
 
 # Remove existing Verus miner directory if it exists
 echo "Cleaning up old files..."
@@ -12,7 +12,7 @@ rm -rf ~/verus-miner
 
 # Clone VerusCoin mining repository
 echo "Cloning the VerusCoin miner repository..."
-git clone https://github.com/JayDDee/cpuminer-multi.git ~/verus-miner
+git clone https://github.com/JayDDee/cpuminer-opt.git ~/verus-miner
 cd ~/verus-miner
 
 # Build the miner
